@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  ---dog: (20 20 20;);
+  --cap: (20 20 20);
+  --pulover: rgba(275 275 205 0.9);
+  --shoes: rgba(275 275 205);
+  --pant: rgba(275 275 275 0.7);
+}
+html {
+  font-size: 62.65%;
+}
+
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: rgba(275, 275, 205);
+}
+.parent {
+  width: 400px;
+  height: 400px;
+  background-image: url('Stragger_text/img/pug-life.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 0 auto;
+  margin-top: 12rem;
+  overflow: hidden;
+}
+p {
+  font-family: sans-serif;
+  margin: 10px 6px 6px 6px;
+  padding: 6px;
+  margin-top: 1.1rem;
+  border-radius: 12px;
+  background-color: rgba(275 275 275 0.7);
+  transform: translate(-150deg -150deg);
+}
+h2 {
+  display: inline-flex;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  padding: 1rem;
+  position: absolute;
+  bottom: 50rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  background-color: bisque;
+  font-family: sans-serif;
+}
+
+.one {
+  margin-left: 100px;
+}
+.two {
+  transition: all 0.5s ease 0.1s;
+}
+.three {
+  transition: all 0.7s ease-in 0.2s;
+}
+.four {
+  transition: all 0.9s ease-in-out 1.3s;
+}
+
+.parent:hover p {
+  transform: translateX(10px);
+}
